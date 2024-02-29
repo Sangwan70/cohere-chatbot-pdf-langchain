@@ -1057,7 +1057,7 @@ cohere-ai@^7.6.2, cohere-ai@^7.7.5:
     qs "6.11.2"
     url-join "4.0.1"
 
-cohere@^4.51:
+cohere@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/cohere/-/cohere-1.1.1.tgz#c61ab08270346ffa96fd662f5f08e0d9876b2b12"
   integrity sha512-D116FKTuauCShJjPuOAFnkyAPMhV/6f403+yPZwyyFY6gErK1AA41y9rQdBvj8eHDZ9sXVJ6TzmzObVfAFh3ig==
