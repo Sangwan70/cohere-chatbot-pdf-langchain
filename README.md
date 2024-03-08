@@ -10,36 +10,33 @@ git clone https://github.com/Sangwan70/cohere-chatbot-pdf-langchain.git
 
 **3. Change to cloned repository and Install packages**
 
+```
 cd cohere-chatbot-pdf-langchain
 
 npm install yarn -g
-
+```
 to install yarn globally (if you haven't already).
 
 Then run:
 
+```
 yarn install
 
+```
 After installation, you should see a node_modules folder.
 
 **4. Set up your .env file. Copy .env.example into .env Your .env file should look like this:**
 
+```
 COHERE_API_KEY=
-
- Update these with your pinecone details from your dashboard.
-
- PINECONE_INDEX_NAME is in the indexes tab under "index name" in blue
-
-PINECONE_ENVIRONMENT is in indexes tab under "Environment".
-
- Example: "us-east1-gcp"
-
+# Update these with your pinecone details from your dashboard.
+# PINECONE_INDEX_NAME is in the indexes tab under "index name" in blue
+# PINECONE_ENVIRONMENT is in indexes tab under "Environment".
+# Example: "us-east1-gcp"
 PINECONE_API_KEY=
-
 PINECONE_ENVIRONMENT=
-
 PINECONE_INDEX_NAME=
-
+```
 
 -   Visit **Cohere** to retrieve API keys and insert into your .env file.
 -   Visit [pinecone](https://pinecone.io/) to create and retrieve your API keys, and also retrieve your environment and index name from the dashboard.
@@ -53,9 +50,9 @@ PINECONE_INDEX_NAME=
 - Inside docs folder (Create the Folder if needed), add your pdf files or folders that contain pdf files.
 
 - Run the script
-
+```
 yarn run ingest
-
+```
 
 To 'ingest' and embed your docs. If you run into errors troubleshoot below.
 
@@ -64,9 +61,11 @@ To 'ingest' and embed your docs. If you run into errors troubleshoot below.
 **Run the app**
 
 Once you've verified that the embeddings and content have been successfully added to your Pinecone, you can run the app with
+```
 
 npm run dev
 
+```
 
 To launch the local dev environment, and then type a question in the chat interface.
 
