@@ -1,4 +1,4 @@
-**Cohere & LangChain - Create a Chatbot for PDF Files**
+## **Cohere & LangChain - Create a Chatbot for PDF Files**
 
 **1. Fork the repo to your Github account, so that you can change the code and add/finetune the features.**
 
