@@ -71,7 +71,7 @@ To launch the local dev environment, and then type a question in the chat interf
 
 Launch the browser and open http://localhost:3000
 
-
+![RAG PDF Chatbot](screen-shot.png)
 
 **Troubleshooting**
 
