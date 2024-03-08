@@ -1,5 +1,7 @@
 ## **Cohere & LangChain - Create a Chatbot for PDF Files**
 
+![Cohere RAG PDF Chatbot](rag-pdf-chat-bot.png)
+
 **1. Fork the repo to your Github account, so that you can change the code and add/finetune the features.**
 
 https://github.com/Sangwan70/cohere-chatbot-pdf-langchain.git
