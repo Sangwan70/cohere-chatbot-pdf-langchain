@@ -1,5 +1,5 @@
 ## **How to Build a LangChain PDF Chatbot**
-THis is a comprehensive project to create a chatbot using the powerful Cohere API. With an emphasis on reproducibility, this project offers a detailed narrative on the entire process, starting with the initial setup and concluding with a fully trained and deployed chatbot.
+This is an application of a RAG PDF chatbot using the powerful Cohere API. With an emphasis on reproducibility, this project offers a detailed narrative on the entire process, starting with the initial setup and concluding with a deployed chatbot.
 
 The application build a RAG PDF Chatbot from your PDF Files. It will create chunck and store them in the Pinecone Vector Database. 
 
