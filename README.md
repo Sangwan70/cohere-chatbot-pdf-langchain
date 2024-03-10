@@ -2,6 +2,7 @@
 How to Build a LangChain PDF Chatbot' is a comprehensive project that provides a step-by-step blueprint for developers to create their own language-based chatbot using the powerful Cohere API. With an emphasis on reproducibility, this project offers a detailed narrative on the entire process, starting with the initial setup and concluding with a fully trained and deployed chatbot.
 
 The guide begins by introducing the flowchart using LangChains and presenting a bird's-eye view of the process, which involves preparing the training data and integrating it into a application or service. It then moves into the core of the process by covering the selection of an appropriate programming language and installing the necessary Cohere SDK, accompanied by clear instructions and potential pitfalls to watch out for.
+
 The project uses Pinecone vector database, Cohere Command Model, Embed Model and Chat endpoint.
 
 ![Cohere RAG PDF Chatbot](rag-pdf-chat-bot.png)
