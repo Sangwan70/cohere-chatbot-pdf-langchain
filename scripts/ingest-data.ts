@@ -1,8 +1,8 @@
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { CohereEmbeddings } from "@langchain/cohere";
-import { PineconeStore } from 'langchain/vectorstores/pinecone';
+import { PineconeStore } from "@langchain/pinecone";
 import { pinecone } from '@/utils/pinecone-client';
-import { PDFLoader } from 'langchain/document_loaders/fs/pdf';
+import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
 import { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE } from '@/config/pinecone';
 import { COHERE_API_KEY, COHERE_API_KEY } from '@/config/pinecone';
 import { DirectoryLoader } from 'langchain/document_loaders/fs/directory';
@@ -34,6 +34,7 @@ export const run = async () => {
     console.log('creating vector store...');
     /*create and store the embeddings in the vectorStore*/
     const embeddings = new CohereEmbeddings({
+       model: "embed-english-v3.0",
        apiKey: COHERE_API_KEY,  // In Node.js defaults to process.env.COHERE_API_KEY
        batchSize: 48, // Default value if omitted is 48. Max value is 96
      });

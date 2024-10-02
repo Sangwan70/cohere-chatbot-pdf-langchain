@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hey, what would you like to learn today from your repository??',
+        message: 'Hey, what would you like to learn today from your repository?',
         type: 'apiMessage',
       },
     ],
@@ -169,7 +169,7 @@ export default function Home() {
                       <div key={`chatMessage-${index}`} className={className}>
                         {icon}
                         <div className={styles.markdownanswer}>
-                          <ReactMarkdown linkTarget="_blank">
+                          <ReactMarkdown>
                             {message.message}
                           </ReactMarkdown>
                         </div>
@@ -191,7 +191,7 @@ export default function Home() {
                                     <h3>Source {index + 1}</h3>
                                   </AccordionTrigger>
                                   <AccordionContent>
-                                    <ReactMarkdown linkTarget="_blank">
+                                    <ReactMarkdown>
                                       {doc.pageContent}
                                     </ReactMarkdown>
                                     <p className="mt-2">
